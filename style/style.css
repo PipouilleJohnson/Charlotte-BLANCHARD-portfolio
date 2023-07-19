@@ -2,12 +2,41 @@ html, body{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: #FDFAF0;
+    color: #622C1C;
 }
 
 @font-face {
     font-family: "nicholas";
     src: url(../typos/Nicholas\ Regular.ttf);
 }
+
+@font-face {
+    font-family: "quick-remarks";
+    src: url(../typos/Quickremarksdemo-WyDW9.ttf);
+}
+
+@font-face {
+    font-family: "anonymous";
+    src: url(../typos/AnonymousPro-Regular.ttf);
+}
+
+h1{
+    font-size: 72px;
+    font-family: "quick-remarks";
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 30px;
+    font-family: "nicholas";
+}
+
+p{
+    font-size: 25px;
+    font-family: "nicholas";
+}
+
 a{
     color: #622C1C;
     text-decoration: none;
@@ -16,6 +45,7 @@ a{
 header{
     width: 100%;
     background-color: #F1A492 ;
+    border-bottom: 5px solid #622C1C;
     font-family: "nicholas" ;
     text-transform: uppercase;
     font-size: 30px;
@@ -59,5 +89,31 @@ nav{
 .animation-charlotte{
     position: absolute;
     width: 100vw;
-    top: -100px;
+}
+
+
+
+/* Partie CV */
+
+
+.bloc-apropos{
+    
+    position: absolute;
+    top: 120px;
+    left: 10%;
+    right: 10%;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+
+}
+
+.photo-profil{
+    height: 500px;
+}
+
+.bloc-texte{
+    width: 60%;
+    text-align: center;
 }
