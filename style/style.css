@@ -1,0 +1,63 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "nicholas";
+    src: url(../typos/Nicholas\ Regular.ttf);
+}
+a{
+    color: #622C1C;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    background-color: #F1A492 ;
+    font-family: "nicholas" ;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: fixed;
+    z-index: 999;
+    
+}
+
+nav{
+    margin: 0 5% 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partie-gauche{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.partie-droite{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.monogramme-charlotte{
+    height: 100px;
+}
+
+.bg-un{
+    width: 100%;
+    position: absolute;
+    top: -115px;
+    z-index: 100;
+}
+
+.animation-charlotte{
+    position: absolute;
+    width: 100vw;
+    top: -100px;
+}
