@@ -107,6 +107,57 @@ nav{
     z-index: 101;
 }
 
+#graines-marron-gros{
+    z-index: 102;
+    top: 430px;
+    right: -80px;
+    height: 200px;
+}
+
+#flaque-caramel{
+    z-index: 101;
+    top: 520px;
+    right: -190px;
+    height: 400px;
+}
+
+#feuille{
+    z-index: 101;
+    top: 525px;
+    right: -190px;
+    height: 420px;
+    transform: rotate(-98deg);
+}
+
+#feuille-apropos{
+    z-index: 101;
+    top: 100px;
+    right: -190px;
+    height: 420px;
+    transform: rotate(-85deg);
+}
+
+#flaque-rose{
+    z-index: 101;
+    top: 640px;
+    left: -170px;
+    height: 450px;
+}
+
+#graines-marron{
+    z-index: 102;
+    top: 720px;
+    left: -70px;
+    height: 250px;
+}
+
+#petales-roses{
+    z-index: 102;
+    top: 100px;
+    left: -90px;
+    height: 250px;
+}
+
 .animation-charlotte{
     position: absolute;
     width: 100vw;
@@ -120,23 +171,33 @@ nav{
 .bloc-apropos{
     
     position: absolute;
-    top: 120px;
-    left: 10%;
-    right: 10%;
+    top: 150px;
+    left: 5%;
     margin: auto;
-    width: 80%;
+    width: 70%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
 
 .photo-profil{
-    height: 500px;
+    height: 400px;
 }
 
 .bloc-texte{
     width: 60%;
     text-align: center;
+}
+
+.bouton-cv{
+    position: absolute;
+    top: 750px;
+    right: 250px;
+    font-family: "nicholas";
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .boutons{
