@@ -101,6 +101,12 @@ nav{
     z-index: 100;
 }
 
+.element{
+    position: absolute;
+    height: 500px;
+    z-index: 101;
+}
+
 .animation-charlotte{
     position: absolute;
     width: 100vw;
