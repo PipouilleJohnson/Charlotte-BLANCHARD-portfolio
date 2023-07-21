@@ -88,18 +88,20 @@ nav{
     height: 50px;
 }
 
+.boutons-fenetre{
+    display: flex;
+    align-items: center;
+}
+
 .monogramme-charlotte{
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 50px;
 }
 
-.bg-un{
-    width: 100%;
-    position: absolute;
-    top: -115px;
-    z-index: 100;
-}
+
+
+
 
 .element{
     position: absolute;
@@ -137,6 +139,14 @@ nav{
     transform: rotate(-85deg);
 }
 
+#feuille-cv{
+    z-index: 101;
+    top: 100px;
+    left: -160px;
+    height: 420px;
+    transform: rotate(110deg);
+}
+
 #flaque-rose{
     z-index: 101;
     top: 640px;
@@ -171,7 +181,7 @@ nav{
 .bloc-apropos{
     
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 5%;
     margin: auto;
     width: 70%;
@@ -188,6 +198,13 @@ nav{
 .bloc-texte{
     width: 60%;
     text-align: center;
+}
+
+.anneau-etoiles{
+    position: absolute;
+    height: 250px;
+    top: 632px;
+    right: 150px;
 }
 
 .bouton-cv{
@@ -207,7 +224,7 @@ nav{
     justify-content: space-around;
     position: absolute;
     bottom: 50px;
-    right: 10%;
+    right: 5%;
     z-index: 999;
 }
 
@@ -225,12 +242,31 @@ nav{
 
 /* Page CV */
 
-
-#cv-charlotte-pdf{
-    margin: auto;
+.bloc-cv{
+    position: absolute;
     display: flex;
-    position: relative;
-    top: 200px;
-    height: 80%;
-    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    top: 30px;
+}
+
+.image-cv{
+    width: 45%;
+}
+
+.bouton-telecharger{
+    position: absolute;
+    top: 500px;
+    right: 200px;
+    font-family: "nicholas";
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.anneau-etoiles-telecharger{
+    position: absolute;
+    height: 250px;
+    top: 382px;
+    right: 125px;
 }
