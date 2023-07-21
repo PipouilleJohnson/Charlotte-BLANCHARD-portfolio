@@ -222,3 +222,15 @@ nav{
     border: 2px solid #F1A492;
 }
 
+
+/* Page CV */
+
+
+#cv-charlotte-pdf{
+    margin: auto;
+    display: flex;
+    position: relative;
+    top: 200px;
+    height: 80%;
+    width: 80%;
+}
