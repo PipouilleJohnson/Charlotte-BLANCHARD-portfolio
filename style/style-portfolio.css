@@ -1,7 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: #FDFAF0;
     color: #622C1C;
 }
@@ -48,6 +48,9 @@ a{
 a:hover{
     color: #ff7657;
 }
+
+
+
 
 
 /* Header */
@@ -98,6 +101,8 @@ nav{
     align-items: center;
     height: 50px;
 }
+
+
 
 
 
@@ -175,60 +180,17 @@ nav{
 
 
 
-/* Partie a propos */
 
-
-.bloc-apropos{
-    
-    position: absolute;
-    top: 100px;
-    left: 5%;
-    margin: auto;
-    width: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.photo-profil{
-    height: 400px;
-}
-
-.bloc-texte{
-    width: 60%;
-    text-align: center;
-}
-
-.anneau-etoiles{
-    position: absolute;
-    height: 250px;
-    top: 632px;
-    right: 150px;
-}
-
-.bouton-cv{
-    position: absolute;
-    top: 750px;
-    right: 250px;
-    font-family: "nicholas";
-    font-size: 15px;
-    text-transform: uppercase;
-    text-decoration: underline ;
-}
-
-.bouton-cv:hover{
-    text-decoration: underline #F1A492;
-}
 
 .boutons{
+    margin-bottom: 100px;
     width: 20%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: absolute;
-    bottom: 50px;
-    right: 5%;
+    position: relative;
+    /* bottom: 50px; */
+    left: 75%;
     z-index: 999;
 }
 
@@ -257,85 +219,68 @@ nav{
 }
 
 
-/* Page CV */
 
-.bloc-cv{
-    position: absolute;
+
+
+
+
+
+
+
+
+
+
+/* portfolio main page */
+
+.titre-portfolio{
+    margin: 80px auto;
+    text-align: center;
+}
+
+.bloc-galerie-travaux{
+    margin: auto;
+    width: 90%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fill, 400px);
+
+}
+
+.bloc-travail{
     display: flex;
+    margin-bottom: 50px;
     flex-direction: column;
     align-items: center;
-    top: 30px;
 }
 
-.image-cv{
-    width: 45%;
-}
-
-.bouton-telecharger{
-    position: absolute;
-    top: 500px;
-    right: 200px;
-    font-family: "nicholas";
-    font-size: 15px;
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
-.bouton-telecharger:hover{
-    text-decoration: underline #F1A492;
-}
-
-.anneau-etoiles-telecharger{
-    position: absolute;
-    height: 250px;
-    top: 382px;
-    right: 125px;
-}
-
-
-
-
-/* Echantillons */
-
-
-.titre-echantillon{
-    margin: 100px 10% 30px 10%;
-}
-
-.blocs-echantillons{
+.bloc-travail a{
     display: flex;
+    width: 100%;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin: auto;
-    width: 80%;
-    z-index: 900;
 }
 
-.bloc-echantillon{
-    width: 30%;
-}
-
-.image-echantillon{
-    width: 100%;
-    height: 300px;
+.bloc-travail img{
     object-fit: cover;
+    width: 100%;
+    height: 250px;
+
 }
 
-.bloc-texte-border{
-    width: 100%;
-    border-bottom: 1px solid #622C1C;
-}
 
-.bloc-echantillon p{
-    width: 100%;
-}
+
+
+
+
+
+
 
 .bloc-bouton-portfolio{
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 15%;
+    top: 200%;
     right: 15%;
     z-index: 900;
 }
@@ -356,72 +301,4 @@ nav{
 
 .bouton-portfolio:hover{
     text-decoration: underline #F1A492;
-}
-
-/* portfolio main page */
-
-.titre-portfolio{
-    margin: 80px auto;
-    text-align: center;
-}
-
-.bloc-galerie-travaux{
-    margin: auto;
-    width: 90%;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: repeat(auto-fill, 25% );
-}
-
-.bloc-travail{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.bloc-travail img{
-    object-fit: cover;
-    width: 300px;
-    height: 200px;
-
-}
-
-
-
-
-
-
-/* Page projets */
-
-.blocs-echantillons-projet{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin: auto;
-    width: 80%;
-    z-index: 900;
-}
-
-.bloc-echantillon-projet{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.image-echantillon-projet{ 
-    width:50%;
-    height: 500px;
-    object-fit: cover;
-}
-
-.bloc-texte-border-projet{
-    width: 100%;
-    border-bottom: 1px solid #622C1C;
-}
-
-.bloc-echantillon-projet p{
-    width: 100%;
 }
