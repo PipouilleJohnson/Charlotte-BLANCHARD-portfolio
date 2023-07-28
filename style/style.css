@@ -294,8 +294,8 @@ nav{
 
 
 
-
 /* Echantillons */
+
 
 
 .titre-echantillon{
@@ -313,6 +313,11 @@ nav{
 
 .bloc-echantillon{
     width: 30%;
+    transition: transform 0.1s;
+}
+
+.bloc-echantillon:hover{
+    transform: scale(1.05);
 }
 
 .image-echantillon{
@@ -358,54 +363,30 @@ nav{
     text-decoration: underline #F1A492;
 }
 
-/* portfolio main page */
 
-.titre-portfolio{
+/* Page projets */
+
+.titre-projet{
     margin: 80px auto;
     text-align: center;
 }
-
-.bloc-galerie-travaux{
-    margin: auto;
-    width: 90%;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: repeat(auto-fill, 25% );
-}
-
-.bloc-travail{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.bloc-travail img{
-    object-fit: cover;
-    width: 300px;
-    height: 200px;
-
-}
-
-
-
-
-
-
-/* Page projets */
 
 .blocs-echantillons-projet{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin: auto;
     width: 80%;
     z-index: 900;
 }
 
 .bloc-echantillon-projet{
-    width: 100%;
     display: flex;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    right: 10%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -424,4 +405,12 @@ nav{
 
 .bloc-echantillon-projet p{
     width: 100%;
+}
+
+#projet-un{
+    visibility: visible;
+}
+
+#projet-deux{
+    visibility: hidden;
 }
