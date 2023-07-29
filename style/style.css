@@ -125,7 +125,7 @@ nav{
 
 #feuille{
     z-index: 101;
-    top: 525px;
+    top: 500px;
     right: -190px;
     height: 420px;
     transform: rotate(-98deg);
@@ -200,21 +200,32 @@ nav{
     text-align: center;
 }
 
+.bloc-bouton-apropos{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 700px;
+    right: 250px;
+}
+
 .anneau-etoiles{
     position: absolute;
     height: 250px;
-    top: 632px;
-    right: 150px;
 }
 
 .bouton-cv{
+    width: 100px;
     position: absolute;
-    top: 750px;
-    right: 250px;
     font-family: "nicholas";
     font-size: 15px;
     text-transform: uppercase;
     text-decoration: underline ;
+    text-align: center;
+}
+
+.bouton-cv a{
+    width: 100%;
 }
 
 .bouton-cv:hover{
@@ -412,4 +423,65 @@ nav{
 .blocs-texte-echantillon-projet{
     width: 50%;
 
+}
+
+
+
+
+/*  page contact */
+
+.bloc-contact-titre {
+    width: 30%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.bloc-contact-titre h1{
+    margin-bottom: 0;
+}
+
+.texte-titre{
+    margin-top: auto;
+}
+
+.blocs-contact-info{
+    margin: 150px auto;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
+    
+    
+
+}
+
+.bloc-contact-info:nth-child(1), .bloc-contact-info:nth-child(2){
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.bloc-contact-info:nth-child(3){
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+
+.bloc-contact-info a{
+    font-family: "nicholas";   
+    font-size: 25px;
+    text-align: center;
+}
+
+.bloc-contact-info img{
+    height: 50px;
+}
+
+.numero{
+    margin-top: 0;
 }
