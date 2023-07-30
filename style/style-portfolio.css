@@ -173,14 +173,32 @@ nav{
     height: 250px;
 }
 
-.animation-charlotte{
-    position: absolute;
-    width: 100vw;
+
+
+
+
+#triples-etoiles-portfolio{
+    z-index: 102;
+    top: 100px;
+    right: -90px;
+    height: 300px;
 }
 
 
 
+#flaque-caramel-portfolio{
+    z-index: 102;
+    top: 500px;
+    left: -150px;
+    height: 300px;
+}
 
+#graines-marron-portfolio{
+    z-index: 102;
+    top: 500px;
+    left: -50px;
+    height: 250px;
+}
 
 .boutons{
     margin-bottom: 50px;

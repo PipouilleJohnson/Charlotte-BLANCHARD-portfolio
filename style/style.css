@@ -307,7 +307,19 @@ nav{
 
 /* Echantillons */
 
+#petales-roses-echantillon{
+    z-index: 102;
+    top: 700px;
+    right: -120px;
+    height: 250px;
+}
 
+#flaque-marron-echantillon{
+    z-index: 102;
+    top: 700px;
+    right: -120px;
+    height: 250px;
+}
 
 .titre-echantillon{
     margin: 100px 10% 30px 10%;
@@ -375,8 +387,32 @@ nav{
 }
 
 
+
+
 /* Page projets */
 
+
+#rond-portfolio-design{
+    z-index: 102;
+    top: 760px;
+    left: -100px;
+    height: 250px;
+}
+
+#flaque-caramel-projet{
+    z-index: 102;
+    top: 200px;
+    right: -120px;
+    height: 300px;
+    transform: rotate(240deg);
+}
+
+#graines-marron-projet{
+    z-index: 102;
+    top: 150px;
+    right: -50px;
+    height: 250px;
+}
 
 
 .titre-projet{
@@ -430,6 +466,31 @@ nav{
 
 /*  page contact */
 
+
+
+#flaque-marron{
+    z-index: 102;
+    top: 740px;
+    left: -80px;
+    height: 300px;
+    transform: rotate(70deg);
+}
+
+#petales-rose{
+    z-index: 102;
+    top: 740px;
+    left: -50px;
+    height: 250px;
+}
+
+#feuille-contact{
+    z-index: 102;
+    top: 100px;
+    right: -150px;
+    height: 300px;
+    transform: rotate(-20deg);
+}
+
 .bloc-contact-titre {
     width: 30%;
     margin: 80px auto;
@@ -447,23 +508,22 @@ nav{
 .blocs-contact-info{
     margin: 150px auto;
     width: 60%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 50px;
-    
-    
-
-}
-
-.bloc-contact-info:nth-child(1), .bloc-contact-info:nth-child(2){
-    width: 100%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    text-align: center;
 }
 
-.bloc-contact-info:nth-child(3){
+.bloc-haut{
+    width: 100%;
+    display: flex;
+}
+
+.bloc-bas{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.bloc-contact-info{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -484,4 +544,32 @@ nav{
 
 .numero{
     margin-top: 0;
+}
+
+
+.bloc-bouton-merci{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+    left: 300px;
+}
+
+.anneau-etoiles-merci{
+    position: absolute;
+    height: 250px;
+}
+
+.bouton-merci{
+    font-family: "nicholas";
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    z-index: 901;
+    cursor: pointer;
+}
+
+.bouton-merci:hover{
+    text-decoration: underline #F1A492;
 }
