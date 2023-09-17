@@ -101,7 +101,25 @@ nav{
     height: 50px;
 }
 
+#apropos{
+    text-decoration: underline;
+}
 
+#cv{
+    text-decoration: underline;
+}
+
+#echantillons{
+    text-decoration: underline;
+}
+
+#portfolio{
+    text-decoration: underline;
+}
+
+#contact{
+    text-decoration: underline;
+}
 
 
 

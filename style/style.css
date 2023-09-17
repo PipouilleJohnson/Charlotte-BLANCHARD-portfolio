@@ -98,6 +98,25 @@ nav{
     height: 50px;
 }
 
+#apropos{
+    text-decoration: underline;
+}
+
+#cv{
+    text-decoration: underline;
+}
+
+#echantillons{
+    text-decoration: underline;
+}
+
+#portfolio{
+    text-decoration: underline;
+}
+
+#contact{
+    text-decoration: underline;
+}
 
 
 
@@ -191,7 +210,7 @@ nav{
 }
 
 .photo-profil{
-    height: 400px;
+    height: 500px;
 }
 
 .bloc-texte{
@@ -539,6 +558,10 @@ nav{
 
 .bloc-contact-info img{
     height: 50px;
+}
+
+.par-linkedin{
+    text-decoration: underline;
 }
 
 .numero{
