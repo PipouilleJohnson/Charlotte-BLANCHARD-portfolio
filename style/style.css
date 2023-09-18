@@ -307,6 +307,10 @@ nav a:hover{
     top: 30px;
 }
 
+.bloc-cv h1{
+    margin-bottom: 20px;
+}
+
 .image-cv{
     width: 45%;
 }
