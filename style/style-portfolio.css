@@ -99,6 +99,19 @@ nav{
     display: flex;
     align-items: center;
     height: 50px;
+    transition: 0.1s;
+}
+
+.monogramme-charlotte:hover{
+    transform: scale(1.2);
+}
+
+nav a{
+    transition: 0.1s;
+}
+
+nav a:hover{
+    transform: scale(1.2);
 }
 
 /* #apropos{
