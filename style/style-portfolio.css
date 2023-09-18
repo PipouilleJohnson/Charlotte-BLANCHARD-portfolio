@@ -44,9 +44,9 @@ a{
     cursor: pointer;
 }
 
-a:hover{
+/* a:hover{
     color: #ff7657;
-}
+} */
 
 
 
@@ -101,7 +101,7 @@ nav{
     height: 50px;
 }
 
-#apropos{
+/* #apropos{
     text-decoration: underline;
 }
 
@@ -119,7 +119,7 @@ nav{
 
 #contact{
     text-decoration: underline;
-}
+} */
 
 
 
@@ -238,9 +238,9 @@ nav{
     border: 2px solid #622C1C;
 }
 
-.bouton a:hover{
+/* .bouton a:hover{
     border: 2px solid #F1A492;
-}
+} */
 
 .fleche-droite{
     height: 20px;
@@ -339,6 +339,6 @@ nav{
     cursor: pointer;
 }
 
-.bouton-portfolio:hover{
+/* .bouton-portfolio:hover{
     text-decoration: underline #F1A492;
-}
+} */

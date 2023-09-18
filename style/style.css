@@ -44,9 +44,7 @@ a{
     cursor: pointer;
 }
 
-a:hover{
-    color: #ff7657;
-}
+/*   */
 
 
 /* Header */
@@ -98,7 +96,7 @@ nav{
     height: 50px;
 }
 
-#apropos{
+/* #apropos{
     text-decoration: underline;
 }
 
@@ -116,7 +114,7 @@ nav{
 
 #contact{
     text-decoration: underline;
-}
+} */
 
 
 
@@ -270,9 +268,9 @@ nav{
     border: 2px solid #622C1C;
 }
 
-.bouton a:hover{
+/* .bouton a:hover{
     border: 2px solid #F1A492;
-}
+} */
 
 .fleche-droite{
     height: 20px;
@@ -310,9 +308,9 @@ nav{
     text-decoration: underline;
 }
 
-.bouton-telecharger:hover{
+/* .bouton-telecharger:hover{
     text-decoration: underline #F1A492;
-}
+} */
 
 .anneau-etoiles-telecharger{
     position: absolute;
@@ -400,9 +398,9 @@ nav{
     cursor: pointer;
 }
 
-.bouton-portfolio:hover{
+/* .bouton-portfolio:hover{
     text-decoration: underline #F1A492;
-}
+} */
 
 
 
@@ -592,6 +590,6 @@ nav{
     cursor: pointer;
 }
 
-.bouton-merci:hover{
+/* .bouton-merci:hover{
     text-decoration: underline #F1A492;
-}
+} */
